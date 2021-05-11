@@ -1,0 +1,18 @@
+{
+    "pods":[
+        {
+            "id":"1",
+            "name":"The Gym Pod",
+            "address":"Jl Surabaya no.1, Jakarta, DKI Jakarta, 10000",
+            "price":"180000",
+            "picture":"https://www.thegympod.com/wp-content/uploads/2019/05/IBP-1.jpg"
+        },
+        {
+            "id":"2",
+            "name":"The Spin Pod",
+            "address":"Jl Jakarta no.1, Surabaya, Jawa Timur, 60000",
+            "price":"200000",
+            "picture":"https://www.thegympod.com/wp-content/uploads/2020/05/homespin.jpg"
+        }
+    ]
+}

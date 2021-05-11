@@ -1,0 +1,92 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+    container:{
+        flex: 1,
+        backgroundColor:"black"
+    },
+    scroll:{
+        width:"100%"
+    },
+    center:{
+        alignItems:'center', 
+        width:"100%"
+    },
+    headercontainer:{
+        width:"100%",
+        height:60,
+        alignItems: 'center',
+        backgroundColor:"orange",
+        alignItems:'center',
+        marginBottom:30,
+        flexDirection:"row",
+    },
+    backcontainer:{
+        width:"10%"
+    },
+    back:{
+        width:"100%",
+        height:"100%"
+    },
+    alignheadercontainer:{
+        width:"80%", 
+        alignItems:"center"
+    },
+    header:{
+        fontSize:20,
+        fontWeight:"bold",
+    },
+    datecontainer:{
+        width:"100%",
+        flexDirection:"row",
+    },
+    datecard:{
+        marginHorizontal:10,
+        backgroundColor:"orange",
+        paddingVertical:30,
+        justifyContent:"center",
+        borderRadius:20,
+        flexDirection:"row",
+        width:75
+    },
+    day:{
+        textAlignVertical:"top",
+        fontSize:10
+    },
+    month:{
+        fontSize:18,
+        fontWeight:"bold",
+        textAlignVertical:"center"
+    },
+    orangecontainer:{
+        marginTop:30,
+        flexDirection:"row", 
+        backgroundColor:"orange", 
+        width:"100%", 
+        borderTopLeftRadius:30, 
+        borderTopRightRadius:30, 
+        paddingVertical:30, 
+        paddingHorizontal:20
+    },
+    schedulehour:{
+        color:"white", 
+        height:80, 
+        textAlignVertical:"center",
+        fontWeight:"bold",
+        borderBottomWidth:1
+    },
+    condition:{ 
+        fontSize:15, 
+        fontWeight:"bold"
+    },
+    btnpick:{
+        justifyContent:"center", 
+        backgroundColor:"black", 
+        height:30, 
+        paddingHorizontal:30, 
+        marginHorizontal:20, 
+        borderRadius:5
+    }
+});
+
+export default styles;
